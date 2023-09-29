@@ -227,5 +227,5 @@ function renderPrice(){
   if (state.Lettuce) {
     totalPrice = totalPrice + ingredients.Lettuce
   }
-  cost.textContent = "INR" + totalPrice;
+  cost.textContent = " INR " + totalPrice;
 }
